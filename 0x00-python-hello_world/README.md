@@ -21,3 +21,5 @@ A script that slices and  concatenates strings
 A Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 ## 10-check_cycle.c
 A function in C that checks if a singly linked list has a cycle in it.
+## 100-write.py
+A Python script that prints a string. Use the function write from the sys module. Your script should print to stderr. Your script should exit with the status code 1
