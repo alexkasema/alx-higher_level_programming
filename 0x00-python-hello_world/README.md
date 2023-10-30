@@ -1,11 +1,13 @@
-# 0-run
+## 0-run
 Write a Shell script that runs a Python script.
 The Python file name will be saved in the environment variable ($PYFILE)
-# 1-run_inline
+## 1-run_inline
 A shell script that runs python code
-# 2-print.py
+## 2-print.py
 A Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
-# 3-print_number.py
+## 3-print_number.py
 A python script that Prints a number stored in a variable followed by a string. You are not allowed to cast the variable number into a string 
-# 4-print_float.py
+## 4-print_float.py
 A python script that Print a floating point number stored in a variable in 2 deciaml places
+## 5-print_string.py
+A script that prints 3 times a string stored in the variable str, followed by its first 9 characters.
