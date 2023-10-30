@@ -19,3 +19,5 @@ A python script that slices a string
 A script that slices and  concatenates strings
 ## 9-easter_egg.py
 A Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+## 10-check_cycle.c
+A function in C that checks if a singly linked list has a cycle in it.
