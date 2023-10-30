@@ -6,4 +6,6 @@ A shell script that runs python code
 # 2-print.py
 A Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 # 3-print_number.py
-Print a number stored in a variable followed by a string. You are not allowed to cast the variable number into a string 
+A python script that Prints a number stored in a variable followed by a string. You are not allowed to cast the variable number into a string 
+# 4-print_float.py
+A python script that Print a floating point number stored in a variable in 2 deciaml places
