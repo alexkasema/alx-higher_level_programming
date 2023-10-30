@@ -13,3 +13,5 @@ A python script that Print a floating point number stored in a variable in 2 dec
 A script that prints 3 times a string stored in the variable str, followed by its first 9 characters.
 ## 6-concat.py
 A python script that prints a string that is stored in a variable.
+## 7-edges.py
+A python script that slices a string
