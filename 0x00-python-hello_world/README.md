@@ -15,3 +15,5 @@ A script that prints 3 times a string stored in the variable str, followed by it
 A python script that prints a string that is stored in a variable.
 ## 7-edges.py
 A python script that slices a string
+## 8-concat_edges.py
+A script that slices and  concatenates strings
