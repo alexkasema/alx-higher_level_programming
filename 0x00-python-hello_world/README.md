@@ -17,3 +17,5 @@ A python script that prints a string that is stored in a variable.
 A python script that slices a string
 ## 8-concat_edges.py
 A script that slices and  concatenates strings
+## 9-easter_egg.py
+A Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
