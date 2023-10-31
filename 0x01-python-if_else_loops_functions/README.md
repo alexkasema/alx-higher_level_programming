@@ -15,3 +15,5 @@ A program that prints numbers from 0 to 99.
 A program that prints all possible different combinations of two digits.
 # 7-islower.py
 A function that checks for lowercase character.
+# 8-uppercase.py
+A function that prints a string in uppercase followed by a new line.
