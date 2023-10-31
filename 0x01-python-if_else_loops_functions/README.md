@@ -9,3 +9,5 @@ A python script that prints alphabet in lowercase
 A program that prints the ASCII alphabet (excluding q and e), in lowercase, not followed by a new line.
 # 4-print_hexa.py
 A program that prints all numbers from 0 to 98 in decimal and in hexadecimal
+# 5-print_comb2.py
+A program that prints numbers from 0 to 99.
