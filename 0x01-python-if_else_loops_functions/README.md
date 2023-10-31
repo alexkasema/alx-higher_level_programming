@@ -21,3 +21,5 @@ A function that prints a string in uppercase followed by a new line.
 A function that prints the last digit of a number.
 # 10-add.py
 A function that adds two integers and returns the result.
+# 11-pow.py
+A function that computes a to the power of b and return the value.
