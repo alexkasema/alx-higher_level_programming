@@ -23,3 +23,5 @@ A function that prints the last digit of a number.
 A function that adds two integers and returns the result.
 # 11-pow.py
 A function that computes a to the power of b and return the value.
+# 12-fizzbuzz.py
+(fizzbuzz)A function that prints the numbers from 1 to 100 separated by a space.
