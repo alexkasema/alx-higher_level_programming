@@ -29,3 +29,5 @@ A function that computes a to the power of b and return the value.
 A  program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase) , not followed by a new line.
 # 101-remove_char_at.py
 A function that creates a copy of the string, removing the character at the position n
+# 102-magic_calculation.py
+A python function that outputs like a bytecode
