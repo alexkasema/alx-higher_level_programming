@@ -15,6 +15,3 @@ elif last_digit < 6 and last_digit != 0:
     output = "and is less than 6 and not 0"
 
 print("Last digit of {} is {} {}".format(number, last_digit, output))
-
-
-
