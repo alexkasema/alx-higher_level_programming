@@ -5,3 +5,5 @@ A python script that checks if a number is positive, zero or negative
 A python script that checks an integer, gets its last digit and give an appropriate output
 # 2-print_alphabet.py
 A python script that prints alphabet in lowercase
+# 3-print_alphabt.py
+A program that prints the ASCII alphabet (excluding q and e), in lowercase, not followed by a new line.
