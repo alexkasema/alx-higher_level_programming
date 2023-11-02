@@ -7,3 +7,5 @@ A program that imports functions from the file calculator_1.py, does some Maths,
 A program that prints the number of and the list of its arguments.
 # 3-infinite_add.py
 A program that prints the result of the addition of all arguments.
+# 4-hidden_discovery.py
+A program that prints all the names defined by the compiled module.
