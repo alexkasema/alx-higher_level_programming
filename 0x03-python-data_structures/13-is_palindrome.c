@@ -24,8 +24,6 @@ int is_palindrome(listint_t **head)
 	}
 
 	values = malloc(sizeof(int) * count);
-	if (values == NULL)
-		return (NULL);
 
 	current = *head;
 	while (current)
