@@ -25,3 +25,5 @@ A function that returns a key with the biggest integer value.
 A function that returns a list with all values multiplied by a number without using any loops.
 # 12-roman_to_int.py
 A function that converts a roman numeral to an integer
+# 100-weight_average.py
+A function that returns the weighted average of all integers tuple (<score>, <weight>)
