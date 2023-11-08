@@ -29,3 +29,5 @@ A function that converts a roman numeral to an integer
 A function that returns the weighted average of all integers tuple (<score>, <weight>)
 # 101-square_matrix_map.py
 A function that computes the square value of all integers of a matrix using map.
+# 102-complex_delete.py
+A function that deletes keys with a specific value in a dictionary.
