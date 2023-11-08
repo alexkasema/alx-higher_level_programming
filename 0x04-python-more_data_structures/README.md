@@ -15,3 +15,5 @@ A function that returns the number of keys in a dictionary.
 A function that prints a dictionary by ordered keys.
 # 7-update_dictionary.py
 A function that replaces or adds key/value in a dictionary.
+# 8-simple_delete.py
+A function that deletes a key in a dictionary.
