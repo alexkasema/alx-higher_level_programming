@@ -27,3 +27,5 @@ A function that returns a list with all values multiplied by a number without us
 A function that converts a roman numeral to an integer
 # 100-weight_average.py
 A function that returns the weighted average of all integers tuple (<score>, <weight>)
+# 101-square_matrix_map.py
+A function that computes the square value of all integers of a matrix using map.
