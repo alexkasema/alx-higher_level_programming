@@ -18,3 +18,5 @@ A function that raises a type exception.
 A function that raises a name exception with a message.
 # 100-safe_print_integer_err.py
 A function that prints an integer. value can be any type (integer, string, etc.). Returns True if value has been correctly printed (it means the value is an integer). Otherwise, returns False and prints in stderr the error precede by Exception:
+# 101-safe_function.py
+A function that executes a function safely. You can assume fct will be always a pointer to a function. Returns the result of the function, Otherwise, returns None if something happens during the function and prints in stderr.
