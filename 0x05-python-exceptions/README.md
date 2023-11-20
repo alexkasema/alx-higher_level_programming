@@ -16,3 +16,5 @@ A function that divides element by element 2 lists. my_list_1 and my_list_2 can 
 A function that raises a type exception.
 # 6-raise_exception_msg.py
 A function that raises a name exception with a message.
+# 100-safe_print_integer_err.py
+A function that prints an integer. value can be any type (integer, string, etc.). Returns True if value has been correctly printed (it means the value is an integer). Otherwise, returns False and prints in stderr the error precede by Exception:
