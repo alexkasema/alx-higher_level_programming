@@ -12,3 +12,5 @@ A function that divides 2 integers and prints the result. The result of the divi
 Returns the value of the division, otherwise: None
 # 4-list_division.py
 A function that divides element by element 2 lists. my_list_1 and my_list_2 can contain any type (integer, string, etc.). If 2 elements can’t be divided, the division result should be equal to 0. Returns a new list (length = list_length) with all divisions
+# 5-raise_exception.py
+A function that raises a type exception.
