@@ -2,6 +2,7 @@
 
 """ Access and update private attribute """
 
+
 class Square:
     """ A class that sets the properties getter and setter and
         calculates the area of the square
@@ -35,4 +36,3 @@ class Square:
             The area of the square
         """
         return (self.__size ** 2)
-
