@@ -6,7 +6,7 @@
 class Node:
     """ defines a node of a singly linked list """
 
-    def __init__(self, data, next_node = None):
+    def __init__(self, data, next_node=None):
         """ Initializing a new node.
         Args:
             data (int): Data that a node has.
