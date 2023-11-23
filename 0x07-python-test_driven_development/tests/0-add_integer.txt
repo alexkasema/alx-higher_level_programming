@@ -1,0 +1,81 @@
+# Test for 0-add_integer module
+
+===================
+add_integer function
+===================
+
+Usage
+=========
+add_integer(a, b=98)
+-'a': First number
+-'b': Second number
+-Returns: a + b
+
+Import Module
+===========
+>>> add_integer = __import__('0-add_integer').add_integer
+
+'Positive Numbers'
+>>> add_integer(5, 10)
+15
+
+>>> add_integer(6.9, 1.1)
+7
+
+"Negative Numbers"
+>>> add_integer(-6, -4)
+-10
+
+>>> add_integer(-7.5, -7.2)
+-14
+
+"only a is passed"
+>>> add_integer(4)
+102
+
+>>> add_integer(5, )
+103
+
+>>> add_integer(2.6)
+100
+
+>>> add_integer(-4, )
+94
+
+"only b is passed"
+>>> add_integer( , 12)
+Traceback (most recent call last):
+        ...
+SyntaxError: invalid syntax
+
+"Non Numbers"
+>>> add_integer("cat", )
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> add_integer("love", 'dogs')
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> add_integer(None)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> add_integer()
+Traceback (most recent call last):
+...
+TypeError: add_integer() missing 1 required positional argument: 'a'
+
+>>> add_integer(float('nan'))
+Traceback (most recent call last):
+...
+ValueError: cannot convert float NaN to integer
+
+>>> add_integer(float('inf'))
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to integer
+
