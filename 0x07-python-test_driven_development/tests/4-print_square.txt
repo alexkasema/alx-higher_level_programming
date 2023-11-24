@@ -1,0 +1,68 @@
+# Testing 4-print_square Module
+
+
+======================
+def print_square(size)
+======================
+prints a square with the character #.
+
+
+Usage.
+=======
+print_square(size)
+	Args:
+		size (int): Length of the square
+	Raises:
+		TypeError if size is not an Integer.
+		ValueError if size is less than zero.
+
+Import Module.
+=================
+::
+	>>> print_square = __import__('4-print_square').print_square
+
+Correct Output.
+================
+::
+	>>> print_square(2)
+	##
+	##
+
+
+Incorrect Inputs.
+===================
+If no arguments are given raise TypeError.
+::
+	>>> print_square()
+	Traceback (most recent call last):
+	...
+	TypeError: print_square() missing 1 required positional argument: 'size'
+
+
+If `size` is negative raise a ValueError
+::
+	>>> print_square(-3)
+	Traceback (most recent call last):
+	...
+	ValueError: size must be >= 0
+
+if `size` is a string raise TypeError.
+::
+	>>> print_square('Love')
+	Traceback (most recent call last):
+	...
+	TypeError: size must be an integer
+
+if `size` is a boolean raise TypeError.
+::
+	>>> print_square(False)
+	Traceback (most recent call last):
+	...
+	TypeError: size must be an integer
+
+if `size` is a list raise a TypeError.
+::
+	>>> print_square([1, 2])
+	Traceback (most recent call last):
+	...
+	TypeError: size must be an integer
