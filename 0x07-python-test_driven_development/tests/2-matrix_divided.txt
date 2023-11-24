@@ -1,0 +1,116 @@
+# Test for 2-matrix_divided module
+
+================================
+def matrix_divided(matrix, div):
+================================
+
+Usage
+========
+matrix_divided(matrix, div)
+	Args:
+		matrix (list): Contains list of (int/floats) numbers.
+		div (int, float): Number that divides each element in the list.
+	Returns:
+		A new Matrix containing new lists.
+
+Import Module
+::
+	>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+The the correct out put with all the requirements.
+::
+	>>> m = [[1, 2, 3], [4, 5, 6]]
+	>>> matrix_divided(m, 3)
+	[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
+
+::
+	>>> m = [[3, -16, 33.1], [-5, 89, 32], [55, 76, -17]]
+	>>> matrix_divided(m, 4)
+	[[0.75, -4.0, 8.28], [-1.25, 22.25, 8.0], [13.75, 19.0, -4.25]]
+
+Check that the original matrix doesn't change
+::
+	>>> m = [[1, 2, 3], [4, 5, 6]]
+	>>> matrix_divided(m, 3)
+	[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
+	>>> print(m)
+	[[1, 2, 3], [4, 5, 6]]
+
+Divisor checks.
+================
+
+If the value of `div` is 0 it will raise a ZeroDivisionError.
+::
+	>>> m = [[1, -2, 3], [4, 5, -6]]
+	>>> matrix_divided(m, 0)
+	Traceback (most recent call last):
+	...
+	ZeroDivisionError: division by zero
+
+If the value of `div` is not a number it will raise a TypeError.
+::
+	>>> m = [[1, 2, -3], [-4, 5, 6]]
+	>>> matrix_divided(m, 'love')
+	Traceback (most recent call last):
+	...
+	TypeError: div must be a number
+
+If the value of `div` is None it will raise a TypeError.
+::
+	>>> m = [[-1, -2, 3], [4, -5, 6]]
+	>>> matrix_divided(m, None)
+	Traceback (most recent call last):
+	...
+	TypeError: div must be a number
+
+If we don't pass in a `div` it will raise a TypeError.
+::
+	>>> m = [[2, -11, 3], [3, 6, -9]]
+	>>> matrix_divided(m)
+	Traceback (most recent call last):
+	...
+	TypeError: matrix_divided() missing 1 required positional argument: 'div'
+
+
+Matrix Checks.
+===================
+** Matrix must be a list of lists of integers or floats, otherwise raise a TypeError exception with the message matrix must be a matrix (list of lists) of integers/floats. 
+** Each row of the matrix must be of the same size, otherwise raise a TypeError exception with the message Each row of the matrix must have the same size.
+
+If list is empty it will raise a TypeError.
+::
+	>>> m = []
+	>>> matrix_divided(m, 3)
+	Traceback (most recent call last):
+	...
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+If the matrix is Empty it will return an empty matrix.
+::
+	>>> m = [[]]
+	>>> matrix_divided(m, 2)
+	[[]]
+
+If we pass in a list it will raise a TypeError.
+::
+	>>> m = [1, 3, 5]
+	>>> matrix_divided(m, 6)
+	Traceback (most recent call last):
+	...
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+If the matrix contains a list with different Types (not numbers) it will raise a TypeError
+::
+	>>> m = [[1, 'two', 3], ['four', 5, 6]]
+	>>> matrix_divided(m, 2)
+	Traceback (most recent call last):
+	...
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+If the matrix contains a lists of different sizes it will raise a TypeError.
+::
+	>>> m = [[1, -34, 6], [3, -7, 8, 9], [0]]
+	>>> matrix_divided(m, 7)
+	Traceback (most recent call last):
+	...
+	TypeError: Each row of the matrix must have the same size
