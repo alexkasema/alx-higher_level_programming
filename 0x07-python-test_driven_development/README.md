@@ -7,3 +7,5 @@ A function that divides all elements of a matrix by a given number. with tests f
 A function that prints My name is <first name> <last name>
 # 4-print_square.py
 A function that prints a square with the character #.
+# 5-text_indentation.py
+A function that prints a text with 2 new lines after each of these characters: ., ? and :

@@ -1,0 +1,90 @@
+# Testing 5-text_indentation Module
+
+
+==========================
+def text_indentation(text)
+==========================
+prints a text with 2 new lines after each of these characters: ., ? and :
+
+
+Usage.
+================
+text_indentation(text)
+	Args:
+		text (str): String to be printed.
+	Raises:
+		TypeError if text is not a string.
+
+
+Import Module.
+=================
+::
+	>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Expected Output.
+=================
+::
+	>>> text_indentation("Hello Olaf. Care to talk about: axes and spears? Please.")
+	Hello Olaf.
+	<BLANKLINE>
+	Care to talk about:
+	<BLANKLINE>
+	axes and spears?
+	<BLANKLINE>
+	Please.
+	<BLANKLINE>
+
+No space at the beginning of a String.
+::
+	>>> text_indentation("    Fast Cars.")
+	Fast Cars.
+	<BLANKLINE>
+
+No space at the end of the line.
+::
+	>>> text_indentation("Fast cars?     ")
+	Fast cars?
+	<BLANKLINE>
+
+No space at the begining or end of Output.
+::
+	>>> text_indentation("    Fast Cars:    ")
+	Fast Cars:
+	<BLANKLINE>
+
+Normal text without the special characters.
+::
+	>>> text_indentation("Hello Hermione! What are you doing in the Library!!!")
+	Hello Hermione! What are you doing in the Library!!!
+
+New lines within the string are printed normally.
+::
+	>>> text_indentation("Harry\n\nPotter.")
+	Harry
+	<BLANKLINE>
+	Potter.
+	<BLANKLINE>
+
+Invalid Input.
+================
+
+If no string is passed raise TypeError.
+::
+	>>> text_indentation()
+	Traceback (most recent call last):
+	...
+	TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+if a number is passed raise TypeError.
+::
+	>>> text_indentation(5)
+	Traceback (most recent call last):
+	...
+	TypeError: text must be a string
+
+if a boolean is passed raise TypeError.
+::
+	>>> text_indentation(False)
+	Traceback (most recent call last):
+	...
+	TypeError: text must be a string
