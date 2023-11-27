@@ -17,3 +17,5 @@ A class that keeps track of instance deletion or creation
 A class that has a class attribute that allows one to change string representation of an object.
 # 8-rectangle.py
 A Class that has a static method that compares the areas of two rectangles.
+# 9-rectangle.py
+A class method that returns a new Rectangle instance with width == height == size
