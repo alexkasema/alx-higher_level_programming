@@ -11,3 +11,5 @@ A class that defines a rectangle and prints the strings representation of the ob
 A class that defines a rectangle and prints the strings representation of the object and implement repr function
 # 5-rectangle.py
 A class that detects instance deletion.
+# 6-rectangle.py
+A class that keeps track of instance deletion or creation
