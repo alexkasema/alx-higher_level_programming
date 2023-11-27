@@ -78,8 +78,13 @@ class Rectangle:
 
     def __str__(self):
         """ returns the string representation of an object """
+        line = ""
         if self.__width == 0 or self.__height == 0:
-            return ("")
+            return (line)
 
-        line = "#" * self.__width
-        return ('\n'.join[line] * self.__height)
+        for i in range(self.__height):
+            for _ range(self.__width):
+                line += "#"
+            if i < self.__height - 1:
+                line += "\n"
+        return line
