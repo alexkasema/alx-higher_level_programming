@@ -5,3 +5,5 @@ An empty class Rectangle that defines a rectangle.
 A class Rectangle that defines a rectangle by width and height.
 # 2-rectangle.py
 A class that defines a rectangle and methods that calculate area and perimeter of the rectangle.
+# 3-rectangle.py
+A class that defines a rectangle and prints the strings representation of the object
