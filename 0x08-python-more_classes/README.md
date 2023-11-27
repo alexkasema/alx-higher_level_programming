@@ -9,3 +9,5 @@ A class that defines a rectangle and methods that calculate area and perimeter o
 A class that defines a rectangle and prints the strings representation of the object
 # 4-rectangle.py
 A class that defines a rectangle and prints the strings representation of the object and implement repr function
+# 5-rectangle.py
+A class that detects instance deletion.
