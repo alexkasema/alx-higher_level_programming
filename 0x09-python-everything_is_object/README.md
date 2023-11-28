@@ -7,3 +7,5 @@ How do you get the variable identifier (which is the memory address in the CPyth
 A function def copy_list(l): that returns a copy of a list.
 # 100-magic_string.py
 A that returns a string “BestSchool” n times the number of the iteration.
+# 101-locked_class.py
+A class that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name. 
