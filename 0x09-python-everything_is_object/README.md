@@ -5,3 +5,5 @@ What function would you use to get the type of an object?
 How do you get the variable identifier (which is the memory address in the CPython implementation)?
 # 19-copy_list.py
 A function def copy_list(l): that returns a copy of a list.
+# 100-magic_string.py
+A that returns a string “BestSchool” n times the number of the iteration.
