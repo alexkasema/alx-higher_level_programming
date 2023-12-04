@@ -17,3 +17,5 @@ A function that raises an Exception with the message area() is not implemented.
 A method that validates a value and raises exceptions. Also createa test for it.
 # 8-rectangle.py
 A class that inherits form another class and uses its functions.
+# 9-rectangle.py
+A class that has a method that calculates the area of a rectangle and implements its str() function.
