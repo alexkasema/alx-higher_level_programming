@@ -1,0 +1,56 @@
+# Test for 1-my_list Module
+
+======================
+def print_sorted(self):
+======================
+Prints out a sorted list in (ascending order)
+
+::
+	>>> MyList = __import__('1-my_list').MyList
+
+Expected outputs.
+==================
+If we append to the list via the object.
+::
+	>>> my_list = MyList()
+	>>> my_list.append(1)
+	>>> my_list.append(4)
+	>>> my_list.append(2)
+	>>> my_list.append(3)
+	>>> my_list.append(5)
+	>>> print(my_list)
+	[1, 4, 2, 3, 5]
+	>>> my_list.print_sorted()
+	[1, 2, 3, 4, 5]
+	>>> print(my_list)
+	[1, 4, 2, 3, 5]
+
+If we pass in a list.
+::
+	>>> my_list = MyList([2, 6, 3, 9])
+	>>> my_list.print_sorted()
+	[2, 3, 6, 9]
+
+If we pass in an empty list.
+::
+	>>> my_list = MyList([])
+	>>> my_list.print_sorted()
+	[]
+
+If we pass in Negative numbers.
+::
+	>>> my_list = MyList([-9, -12, -3, -7])
+	>>> my_list.print_sorted()
+	[-12, -9, -7, -3]
+
+If we pass in the same numbers to the list.
+::
+	>>> my_list = MyList([7, 7, 7])
+	>>> my_list.print_sorted()
+	[7, 7, 7]
+
+If we passed in just one number.
+::
+	>>> my_list = MyList([9])
+	>>> my_list.print_sorted()
+	[9]
