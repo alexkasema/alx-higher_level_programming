@@ -15,3 +15,5 @@ An empty class.
 A function that raises an Exception with the message area() is not implemented.
 # 7-base_geometry.py
 A method that validates a value and raises exceptions. Also createa test for it.
+# 8-rectangle.py
+A class that inherits form another class and uses its functions.
