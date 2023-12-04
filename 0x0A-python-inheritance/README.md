@@ -19,3 +19,5 @@ A method that validates a value and raises exceptions. Also createa test for it.
 A class that inherits form another class and uses its functions.
 # 9-rectangle.py
 A class that has a method that calculates the area of a rectangle and implements its str() function.
+# 10-square.py
+A class Square that inherits from Rectangle (9-rectangle.py) 
