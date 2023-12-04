@@ -11,3 +11,5 @@ A function that returns True if the object is an instance of, or if the object i
 A function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
 # 5-base_geometry.py
 An empty class.
+# 6-base_geometry.py
+A function that raises an Exception with the message area() is not implemented.
