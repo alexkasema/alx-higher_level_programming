@@ -21,3 +21,5 @@ A class that inherits form another class and uses its functions.
 A class that has a method that calculates the area of a rectangle and implements its str() function.
 # 10-square.py
 A class Square that inherits from Rectangle (9-rectangle.py) 
+# 100-my_int.py
+A class MyInt that inherits from int. MyInt is a rebel. MyInt has == and != operators inverted.
