@@ -1,0 +1,85 @@
+# Test for 7-base_geometry Module.
+
+
+====================
+def integer_validator(self, name, value):
+====================
+Validates the input value of value.
+
+Usage.
+========
+integer_validator(self, name, value)
+	Args:
+		name (string): String input.
+		value (integer): Integer input.
+	Raises:
+		TypeError if value is not an integer.
+		ValueError if value is less or equal to 0.
+
+::
+	>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+If we pass a string as the value argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("name", "John")
+	Traceback (most recent call last):
+	...
+	TypeError: name must be an integer
+
+If we pass in 0 as the value argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("width", 0)
+	Traceback (most recent call last):
+	...
+	ValueError: width must be greater than 0
+
+If we pass a list as the value argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("width", [2, 4])
+	Traceback (most recent call last):
+	...
+	TypeError: width must be an integer
+
+If we pass in a negative number as the value argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("width", -89)
+	Traceback (most recent call last):
+	...
+	ValueError: width must be greater than 0
+
+If we pass in no arguments to the function.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator()
+	Traceback (most recent call last):
+	...
+	TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
+
+If we pass in only the name argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("width")
+	Traceback (most recent call last):
+	...
+	TypeError: integer_validator() missing 1 required positional argument: 'value'
+
+If we pass in only the name argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator(89)
+	Traceback (most recent call last):
+	...
+	TypeError: integer_validator() missing 1 required positional argument: 'value'
+
+If we pass in None for the value argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("width", None)
+	Traceback (most recent call last):
+	...
+	TypeError: width must be an integer
+

@@ -13,3 +13,5 @@ A function that returns True if the object is an instance of a class that inheri
 An empty class.
 # 6-base_geometry.py
 A function that raises an Exception with the message area() is not implemented.
+# 7-base_geometry.py
+A method that validates a value and raises exceptions. Also createa test for it.
