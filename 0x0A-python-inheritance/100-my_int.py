@@ -2,6 +2,7 @@
 
 """ My integer """
 
+
 class MyInt(int):
     """ A class that inherits from int class """
 
@@ -19,8 +20,3 @@ class MyInt(int):
         """
 
         return (int(self) == other)
-
-my_i = MyInt(3)
-print(my_i)
-print(my_i == 3)
-print(my_i != 3)
