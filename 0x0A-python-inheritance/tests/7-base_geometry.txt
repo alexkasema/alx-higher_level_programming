@@ -19,6 +19,11 @@ integer_validator(self, name, value)
 ::
 	>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
+If we passed in a positive number as the value argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("width", 89)
+
 If we pass a string as the value argument.
 ::
 	>>> bg = BaseGeometry()
@@ -79,6 +84,30 @@ If we pass in None for the value argument.
 ::
 	>>> bg = BaseGeometry()
 	>>> bg.integer_validator("width", None)
+	Traceback (most recent call last):
+	...
+	TypeError: width must be an integer
+
+If we passed in a boolean for the value argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("width", False)
+	Traceback (most recent call last):
+	...
+	TypeError: width must be an integer
+
+If we passed in a dict for the vlaue argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("width", {'id': 3})
+	Traceback (most recent call last):
+	...
+	TypeError: width must be an integer
+
+If we passed in a tuple for the value argument.
+::
+	>>> bg = BaseGeometry()
+	>>> bg.integer_validator("width", (1, ))
 	Traceback (most recent call last):
 	...
 	TypeError: width must be an integer
