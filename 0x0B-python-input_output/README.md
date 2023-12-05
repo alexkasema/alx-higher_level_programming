@@ -21,3 +21,5 @@ A function that returns the dictionary description with simple data structure (l
 A class Student that defines a student. Public method that retrieves a dictionary representation of a Student instance.
 # 12-pascal_triangle.py
 Pascal's Triangle
+# 100-append_after.py
+A function that inserts a line of text to a file, after each line containing a specific string.
