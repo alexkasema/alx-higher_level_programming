@@ -9,3 +9,5 @@ A function that appends a string at the end of a text file (UTF8) and returns th
 A function that returns the JSON representation of an object (string).
 # 4-from_json_string.py
 A function that returns an object (Python data structure) represented by a JSON string.
+# 5-save_to_json_file.py
+A function that writes an Object to a text file, using a JSON representation.
