@@ -7,3 +7,5 @@ A function that writes a string to a text file (UTF8) and returns the number of 
 A function that appends a string at the end of a text file (UTF8) and returns the number of characters added.
 # 3-to_json_string.py
 A function that returns the JSON representation of an object (string).
+# 4-from_json_string.py
+A function that returns an object (Python data structure) represented by a JSON string.
