@@ -137,7 +137,7 @@ class TestRectangle(unittest.TestCase):
         a = Rectangle(5, 8)
         with self.assertRaisesRegex(TypeError, "x must be an integer"):
             a.x = (3, 8, 9)
-        
+
         a = Rectangle(9, 8)
         with self.assertRaisesRegex(TypeError, "y must be an integer"):
             a.y = (4, 7)
@@ -163,3 +163,17 @@ class TestRectangle(unittest.TestCase):
         a = Rectangle(7, 9)
         with self.assertRaisesRegex(ValueError, "y must be >= 0"):
             a.y = -4
+
+    def test_rectangle_area(self):
+        """ test the area method """
+        a = Rectangle(4, 6)
+        self.assertEqual(a.area(), 24)
+
+        a = Rectangle(5, 3)
+        a.width = 12
+        a.height = 2
+        self.assertEqual(a.area(), 24)
+
+        a = Rectangle(7, 8)
+        with self.assertRaises(TypeError):
+            a.area(5, 9)
