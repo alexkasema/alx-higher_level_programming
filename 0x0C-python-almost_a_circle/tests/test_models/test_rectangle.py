@@ -195,6 +195,30 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(TypeError):
             a.display(8)
 
+    def test_method_display_with_x(self):
+        """ test the display method with x value """
+        with patch("sys.stdout", new_callable=StringIO) as my_output:
+            a = Rectangle(2, 3, 2)
+            a.display()
+            res = my_output.getvalue()
+            self.assertEqual(res, "  ##\n  ##\n  ##\n")
+
+    def test_method_display_with_y(self):
+        """ test the display method with y value """
+        with patch("sys.stdout", new_callable=StringIO) as my_output:
+            a = Rectangle(2, 3, 0, 3)
+            a.display()
+            res = my_output.getvalue()
+            self.assertEqual(res, "\n\n\n##\n##\n##\n")
+
+    def test_method_display_with_x_y(self):
+        """ test the display method with x and y values """
+        with patch("sys.stdout", new_callable=StringIO) as my_output:
+            a = Rectangle(2, 3, 2, 3)
+            a.display()
+            res = my_output.getvalue()
+            self.assertEqual(res, "\n\n\n  ##\n  ##\n  ##\n")
+
     def test_rectangle_method_str_(self):
         """ test the str method of the Rectangle class """
 
