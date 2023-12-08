@@ -28,3 +28,31 @@ class TestSquare(unittest.TestCase):
 
         with self.assertRaises(TypeError):
             a.size("two")
+
+    def test_method_update_args(self):
+        """ test the update methods with argument values"""
+        a = Square(10, 10, 10, 10)
+        a.update(6)
+        self.assertEqual(a.id, 6)
+
+        a.update(3, 9)
+        self.assertEqual(a.size, 9)
+
+        a.update(6, 9, 0)
+        self.assertEqual(a.x, 0)
+
+        a.update(4, 1, 4, 12)
+        self.assertEqual(a.y, 12)
+
+    def test_method_update_kwargs(self):
+        """ test the update method with kwarg value """
+        a = Square(10, 10, 10, 10)
+        a.update(id=3)
+        self.assertEqual(a.id, 3)
+
+        a.update(x=7)
+        self.assertEqual(a.x, 7)
+
+        a.update(id=45, y=21)
+        self.assertEqual(a.id, 45)
+        self.assertEqual(a.y, 21)
