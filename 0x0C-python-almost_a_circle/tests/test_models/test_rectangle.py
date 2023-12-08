@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """ unittest for Rectangle class """
 import unittest
+from io import StringIO
+from unittest.mock import patch
 from models.rectangle import Rectangle
 from models.base import Base
 
@@ -177,3 +179,18 @@ class TestRectangle(unittest.TestCase):
         a = Rectangle(7, 8)
         with self.assertRaises(TypeError):
             a.area(5, 9)
+
+    def test_rectangle_display(self):
+        """ Test displaying the rectangle with # character """
+        with patch("sys.stdout", new_callable=StringIO) as my_output:
+            a = Rectangle(3, 4)
+            a.display()
+
+            res = my_output.getvalue()
+            self.assertEqual(res, "###\n###\n###\n###\n")
+
+    def test_rectangle_display_with_args(self):
+        """ test if we give the display function an argument """
+        a = Rectangle(5, 7)
+        with self.assertRaises(TypeError):
+            a.display(8)
