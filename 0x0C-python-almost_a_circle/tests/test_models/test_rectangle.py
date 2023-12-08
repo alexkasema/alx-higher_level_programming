@@ -249,11 +249,35 @@ class TestRectangle(unittest.TestCase):
         a.update(89, 2, 3, 4, 5)
         self.assertEqual(str(a), "[Rectangle] (89) 4/5 - 2/3")
 
+    def test_method_update_kwargs_one(self):
+        """ test the update method with kwargs values """
+        a = Rectangle(10, 10, 10, 10)
+        a.update(id=1)
+        self.assertEqual(str(a), "[Rectangle] (1) 10/10 - 10/10")
+
+    def test_method_update_kwargs_two(self):
+        """ test the update method with kwargs values """
+        a = Rectangle(10, 10, 10, 10)
+        a.update(height=4, id=1)
+        self.assertEqual(str(a), "[Rectangle] (1) 10/10 - 10/4")
+
     def test_rectangle_method_str_(self):
         """ test the str method of the Rectangle class """
 
         a = Rectangle(3, 4, 1, 8, 9)
         self.assertEqual(str(a), "[Rectangle] (9) 1/8 - 3/4")
+
+    def test_method_update_kwargs_three(self):
+        """ test the update method """
+        a = Rectangle(10, 10, 10, 10)
+        a.update(x=4, width=8, id=7)
+        self.assertEqual(str(a), "[Rectangle] (7) 4/10 - 8/10")
+
+    def test_method_update_kwargs_five(self):
+        """ test the update method """
+        a = Rectangle(10, 10, 10, 10)
+        a.update(id=1, y=2, height=7, width=6, x=9)
+        self.assertEqual(str(a), "[Rectangle] (1) 9/2 - 6/7")
 
     def test_method_str(self):
         """ test method with only width an height """

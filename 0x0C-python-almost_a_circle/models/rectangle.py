@@ -99,14 +99,16 @@ class Rectangle(Base):
                 print("#", end="")
             print()
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """ Assigns arguments to each attribute of rectangle instance
         Args:
-            1st argument should be the id attribute.
-            2nd argument should be the width attribute.
-            3rd argument should be the height attribute.
-            4th argument should be the x attribute.
-            5th argument should be the y attribute.
+            args (list):
+                1st argument should be the id attribute.
+                2nd argument should be the width attribute.
+                3rd argument should be the height attribute.
+                4th argument should be the x attribute.
+                5th argument should be the y attribute.
+            kwargs (dict): a dictionary that has attribute keys
         """
         if args is not None and len(args) != 0:
             for i, arg in enumerate(args):
@@ -120,6 +122,18 @@ class Rectangle(Base):
                     self.x = arg
                 elif i == 4:
                     self.y = arg
+        elif kwargs is not None and len(kwargs) != 0:
+            for key, value in kwargs.items():
+                if key == "id":
+                    self.id = value
+                elif key == "width":
+                    self.width = value
+                elif key == "height":
+                    self.height = value
+                elif key == "x":
+                    self.x = value
+                elif key == "y":
+                    self.y = value
 
     def __str__(self):
         """ string representation of rectangle instance """
