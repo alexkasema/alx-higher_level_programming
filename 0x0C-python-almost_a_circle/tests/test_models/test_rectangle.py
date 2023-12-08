@@ -194,3 +194,17 @@ class TestRectangle(unittest.TestCase):
         a = Rectangle(5, 7)
         with self.assertRaises(TypeError):
             a.display(8)
+
+    def test_rectangle_method_str_(self):
+        """ test the str method of the Rectangle class """
+
+        a = Rectangle(3, 4, 1, 8, 9)
+        self.assertEqual(str(a), "[Rectangle] (9) 1/8 - 3/4")
+
+    def test_method_str(self):
+        """ test method with only width an height """
+        a = Rectangle(5, 7, 3, 2, 11)
+        self.assertEqual(str(a), "[Rectangle] (11) 3/2 - 5/7")
+
+        a = Rectangle(5, 7, 3, 0, 3)
+        self.assertEqual(str(a), "[Rectangle] (3) 3/0 - 5/7")
