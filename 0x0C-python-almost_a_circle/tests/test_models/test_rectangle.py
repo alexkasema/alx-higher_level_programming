@@ -219,6 +219,36 @@ class TestRectangle(unittest.TestCase):
             res = my_output.getvalue()
             self.assertEqual(res, "\n\n\n  ##\n  ##\n  ##\n")
 
+    def test_method_update_with_one_arg(self):
+        """ test the update method """
+        a = Rectangle(10, 10, 10, 10)
+        a.update(89)
+        self.assertEqual(str(a), "[Rectangle] (89) 10/10 - 10/10")
+
+    def test_method_update_with_two_args(self):
+        """ test the update method with two args """
+        a = Rectangle(10, 10, 10, 10)
+        a.update(89, 2)
+        self.assertEqual(str(a), "[Rectangle] (89) 10/10 - 2/10")
+
+    def test_method_update_with_three_args(self):
+        """ test the update method with tree args """
+        a = Rectangle(10, 10, 10, 10)
+        a.update(89, 2, 3)
+        self.assertEqual(str(a), "[Rectangle] (89) 10/10 - 2/3")
+
+    def test_method_update_with_four_args(self):
+        """ test the update method with four args """
+        a = Rectangle(10, 10, 10, 10)
+        a.update(89, 2, 3, 4)
+        self.assertEqual(str(a), "[Rectangle] (89) 4/10 - 2/3")
+
+    def test_method_update_with_five_args(self):
+        """ test the update method with five args """
+        a = Rectangle(10, 10, 10, 10)
+        a.update(89, 2, 3, 4, 5)
+        self.assertEqual(str(a), "[Rectangle] (89) 4/5 - 2/3")
+
     def test_rectangle_method_str_(self):
         """ test the str method of the Rectangle class """
 

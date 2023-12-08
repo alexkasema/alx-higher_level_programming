@@ -99,6 +99,28 @@ class Rectangle(Base):
                 print("#", end="")
             print()
 
+    def update(self, *args):
+        """ Assigns arguments to each attribute of rectangle instance
+        Args:
+            1st argument should be the id attribute.
+            2nd argument should be the width attribute.
+            3rd argument should be the height attribute.
+            4th argument should be the x attribute.
+            5th argument should be the y attribute.
+        """
+        if args is not None and len(args) != 0:
+            for i, arg in enumerate(args):
+                if i == 0:
+                    self.id = arg
+                elif i == 1:
+                    self.width = arg
+                elif i == 2:
+                    self.height = arg
+                elif i == 3:
+                    self.x = arg
+                elif i == 4:
+                    self.y = arg
+
     def __str__(self):
         """ string representation of rectangle instance """
         string = "[{}] ({}) {}/{} - {}/{}".format(self.__class__.__name__,
