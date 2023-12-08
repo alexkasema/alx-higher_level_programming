@@ -135,6 +135,16 @@ class Rectangle(Base):
                 elif key == "y":
                     self.y = value
 
+    def to_dictionary(self):
+        """returns the dictionary representation of a Rectangle instance"""
+        return ({
+            "id": self.id,
+            "width": self.width,
+            "height": self.height,
+            "x": self.x,
+            "y": self.y
+        })
+
     def __str__(self):
         """ string representation of rectangle instance """
         string = "[{}] ({}) {}/{} - {}/{}".format(self.__class__.__name__,

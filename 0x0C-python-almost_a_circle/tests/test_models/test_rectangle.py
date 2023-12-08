@@ -279,6 +279,22 @@ class TestRectangle(unittest.TestCase):
         a.update(id=1, y=2, height=7, width=6, x=9)
         self.assertEqual(str(a), "[Rectangle] (1) 9/2 - 6/7")
 
+    def test_method_to_dictionary(self):
+        """test the dict representation of a Rectangle instance"""
+        a = Rectangle(3, 6, 5, 1, 8)
+        res = {'id': 8, 'width': 3, 'height': 6, 'x': 5, 'y': 1}
+        self.assertEqual(a.to_dictionary(), res)
+
+    def test_method_to_dictionary_using_update_method(self):
+        """ test if the obj are same after update with same values"""
+        a = Rectangle(10, 2, 1, 9)
+        a_dict = a.to_dictionary()
+
+        b = Rectangle(1, 1)
+        b.update(**a_dict)
+
+        self.assertNotEqual(a, b)
+
     def test_method_str(self):
         """ test method with only width an height """
         a = Rectangle(5, 7, 3, 2, 11)
