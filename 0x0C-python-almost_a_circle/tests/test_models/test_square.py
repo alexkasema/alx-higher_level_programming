@@ -59,7 +59,7 @@ class TestSquare(unittest.TestCase):
 
     def test_method_to_dictionary(self):
         """ test the dict representation of a Square instance """
-        a = Square(10, 2, 1)
+        a = Square(10, 2, 1, 1)
         a_dict = a.to_dictionary()
         self.assertEqual(a_dict, {'size': 10, "x": 2, "y": 1, "id": 1})
 
