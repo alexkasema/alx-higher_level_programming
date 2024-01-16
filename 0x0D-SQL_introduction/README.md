@@ -40,3 +40,5 @@ A script that converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unic
 A script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
 ## 102-top_city.sql
 A script that displays the top 3 of cities temperature during July and August ordered by temperature (descending).
+## 103-max_state.sql
+A script that displays the max temperature of each state (ordered by State name).
