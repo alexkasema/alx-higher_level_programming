@@ -28,3 +28,5 @@ A script that lists all records with a score >= 10 in the table second_table.
 A script that updates the score of Bob to 10 in the table second_table.
 ## 13-change_class.sql
 A script that removes all records with a score <= 5 in the table second_table.
+## 14-average.sql
+A script that computes the score average of all records in the table second_table.
