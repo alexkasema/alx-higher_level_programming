@@ -18,3 +18,5 @@ A script that lists all rows of the table first_table.
 A script that inserts a new row in the table first_table.
 ## 8-count_89.sql
 A script that displays the number of records with id = 89 in the table first_table.
+## 9-full_creation.sql
+A script that creates a table second_table in the database, description: id INT, name VARCHAR(256), score INT
