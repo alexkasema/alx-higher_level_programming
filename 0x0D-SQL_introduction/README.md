@@ -14,3 +14,5 @@ A script that creates a table called first_table in the current database in your
 A script that prints the full description of the table first_table.
 ## 6-list_values.sql
 A script that lists all rows of the table first_table.
+## 7-insert_value.sql
+A script that inserts a new row in the table first_table.
