@@ -24,3 +24,5 @@ A script that creates a table second_table in the database, description: id INT,
 A script that lists all records of the table second_table, Results should display both the score and the name (in this order), Records should be ordered by score (top first).
 ## 11-best_score.sql
 A script that lists all records with a score >= 10 in the table second_table.
+## 12-no_cheating.sql
+A script that updates the score of Bob to 10 in the table second_table.
