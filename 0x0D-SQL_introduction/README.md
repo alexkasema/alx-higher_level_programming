@@ -16,3 +16,5 @@ A script that prints the full description of the table first_table.
 A script that lists all rows of the table first_table.
 ## 7-insert_value.sql
 A script that inserts a new row in the table first_table.
+## 8-count_89.sql
+A script that displays the number of records with id = 89 in the table first_table.
