@@ -36,3 +36,5 @@ A script that lists the number of records with the same score in the table secon
 A script that lists all records of the table second_table, Don’t list rows without a name value
 ## 100-move_to_utf8.sql
 A script that converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci)
+## 101-avg_temperatures.sql
+A script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
