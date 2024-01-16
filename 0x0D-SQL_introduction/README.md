@@ -32,3 +32,5 @@ A script that removes all records with a score <= 5 in the table second_table.
 A script that computes the score average of all records in the table second_table.
 ## 15-groups.sql
 A script that lists the number of records with the same score in the table second_table.
+## 16-no_link.sql
+A script that lists all records of the table second_table, Don’t list rows without a name value
