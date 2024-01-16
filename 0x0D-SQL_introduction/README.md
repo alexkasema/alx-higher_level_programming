@@ -22,3 +22,5 @@ A script that displays the number of records with id = 89 in the table first_tab
 A script that creates a table second_table in the database, description: id INT, name VARCHAR(256), score INT
 ## 10-top_score.sql
 A script that lists all records of the table second_table, Results should display both the score and the name (in this order), Records should be ordered by score (top first).
+## 11-best_score.sql
+A script that lists all records with a score >= 10 in the table second_table.
