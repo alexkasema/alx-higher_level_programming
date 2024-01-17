@@ -5,3 +5,5 @@ A script that lists all privileges of specified MySQL users
 A script that creates the MySQL server user user_0d_1. User should have all privileges on your MySQL server
 ## 2-create_read_user.sql
 A script that creates the database hbtn_0d_2 and the user user_0d_2.
+## 3-force_name.sql
+A script that creates the table force_name on your MySQL server. It should have a name attribute that should not be NULL
