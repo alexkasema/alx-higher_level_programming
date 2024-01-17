@@ -11,3 +11,5 @@ A script that creates the table force_name on your MySQL server. It should have 
 A script that creates the table id_not_null on your MySQL server with a default value for its id attribute.
 ## 5-unique_id.sql
 A script that creates the table unique_id on your MySQL server and its id attribute must be unique.
+## 6-states.sql
+A script that creates the database hbtn_0d_usa and the table states (in the database hbtn_0d_usa) on your MySQL server.
