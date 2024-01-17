@@ -23,3 +23,5 @@ A script that lists all cities contained in the database, Each record should dis
 A script that lists all shows contained in hbtn_0d_tvshows that have at least one genre linked.
 ## 11-genre_id_all_shows.sql
 A script that lists all shows contained in the database hbtn_0d_tvshows and list all genre ids, If a show doesn’t have a genre, display NULL.
+## 12-no_genre.sql
+A script that lists all shows contained in hbtn_0d_tvshows without a genre linked.
