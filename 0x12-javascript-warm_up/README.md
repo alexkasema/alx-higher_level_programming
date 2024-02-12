@@ -15,3 +15,5 @@ A script that prints My number: <first argument converted in integer> if the fir
 A script that prints 3 lines by using an array of string and a loop.
 ## 7-multi_c.js
 A script that prints x times “C is fun”. If the first argument can’t be converted to an integer, print “Missing number of occurrences”.
+## 8-square.js
+A script that prints a square. The first argument is the size of the square.
