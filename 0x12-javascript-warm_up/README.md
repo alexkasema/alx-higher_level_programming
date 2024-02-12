@@ -7,3 +7,5 @@ A script that prints 3 lines.
 A script that prints a message depending of the number of arguments passed (process.argv)
 ## 3-value_argument.js
 A script that prints the first argument passed to it.
+## 4-concat.js
+A script that prints two arguments passed to it, in the following format.
