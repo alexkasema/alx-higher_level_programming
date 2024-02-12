@@ -17,3 +17,5 @@ A script that prints 3 lines by using an array of string and a loop.
 A script that prints x times “C is fun”. If the first argument can’t be converted to an integer, print “Missing number of occurrences”.
 ## 8-square.js
 A script that prints a square. The first argument is the size of the square.
+## 9-add.js
+A script that prints the addition of 2 integers.
