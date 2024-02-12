@@ -23,3 +23,5 @@ A script that prints the addition of 2 integers.
 A script that computes and prints a factorial recursively. 
 ## 11-second_biggest.js
 A script that searches the second biggest integer in the list of arguments.
+## 12-object.js
+A script to replace the value 12 with 89 in an object.
