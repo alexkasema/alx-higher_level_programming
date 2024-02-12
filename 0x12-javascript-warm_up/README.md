@@ -21,3 +21,5 @@ A script that prints a square. The first argument is the size of the square.
 A script that prints the addition of 2 integers.
 ## 10-factorial.js
 A script that computes and prints a factorial recursively. 
+## 11-second_biggest.js
+A script that searches the second biggest integer in the list of arguments.
