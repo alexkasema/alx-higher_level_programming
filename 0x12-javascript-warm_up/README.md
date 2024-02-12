@@ -19,3 +19,5 @@ A script that prints x times “C is fun”. If the first argument can’t be co
 A script that prints a square. The first argument is the size of the square.
 ## 9-add.js
 A script that prints the addition of 2 integers.
+## 10-factorial.js
+A script that computes and prints a factorial recursively. 
