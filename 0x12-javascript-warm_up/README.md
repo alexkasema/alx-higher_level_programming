@@ -29,3 +29,5 @@ A script to replace the value 12 with 89 in an object.
 A function that returns the addition of 2 integers. The function must be visible from outside.
 ## 100-let_me_const.js
 A file that modifies the value of myVar to 333.
+## 101-call_me_moby.js
+A function that executes x times a function.
