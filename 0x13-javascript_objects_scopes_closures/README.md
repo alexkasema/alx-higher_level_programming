@@ -20,3 +20,5 @@ Create an instance method called charPrint(c) that prints the rectangle using th
 If c is undefined, use the character X.
 ## 7-occurrences.js
 A function that returns the number of occurrences in a list.
+## 8-esrever.js
+A function that returns the reversed version of a list.
