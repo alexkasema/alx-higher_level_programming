@@ -33,3 +33,9 @@ A script that imports an array and computes a new array.
 You must use a map.
 A new list must be created with each value equal to the value of the initial list, multipled by the index in the list.
 Print both the initial list and the new list.
+## 101-sorted.js
+A script that imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence.
+In the new dictionary:
+A key is a number of occurrences
+A value is the list of user ids
+Print the new dictionary at the end
