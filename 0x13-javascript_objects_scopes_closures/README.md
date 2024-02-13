@@ -14,3 +14,7 @@ Create an instance method called double() that multiples the width and the heigh
 A class Square that defines a square and inherits from Rectangle.
 The constructor must take 1 argument: size.
 The constructor of Rectangle must be called (by using super()).
+## 6-square.js
+A class Square that defines a square and inherits from Square of 5-square.js
+Create an instance method called charPrint(c) that prints the rectangle using the character c.
+	If c is undefined, use the character X.
