@@ -22,3 +22,6 @@ If c is undefined, use the character X.
 A function that returns the number of occurrences in a list.
 ## 8-esrever.js
 A function that returns the reversed version of a list.
+## 9-logme.js
+A function that prints the number of arguments already printed and the new argument value.
+* Output format: <number arguments already printed>: <current argument value>
