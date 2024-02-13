@@ -5,3 +5,5 @@ An empty class Rectangle that defines a rectangle.
 A class Rectangle that defines a rectangle. The constructor must take 2 arguments w and h.
 ## 2-rectangle.js
 If w or h is equal to 0 or not a positive integer, create an empty object.
+## 3-rectangle.js
+Create an instance method called print() that prints the rectangle using the character X.
