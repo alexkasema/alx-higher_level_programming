@@ -28,3 +28,8 @@ A function that prints the number of arguments already printed and the new argum
 ## 10-converter.js
 A function that converts a number from base 10 to another base passed as argument.
 You are not allowed to declare any new variable (var, let, etc..)
+## 100-map.js
+A script that imports an array and computes a new array.
+You must use a map.
+A new list must be created with each value equal to the value of the initial list, multipled by the index in the list.
+Print both the initial list and the new list.
