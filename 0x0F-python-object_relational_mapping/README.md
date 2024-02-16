@@ -34,3 +34,5 @@ A script that adds the State object “Louisiana” to the database hbtn_0e_6_us
 # 12-model_state_update_id_2.py
 A script that changes the name of a State object from the database hbtn_0e_6_usa.
 Change the name of the State where id = 2 to New Mexico.
+# 13-model_state_delete_a.py
+A script that deletes all State objects with a name containing the letter a from the database hbtn_0e_6_usa.
