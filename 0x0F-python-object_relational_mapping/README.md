@@ -22,3 +22,5 @@ A script that takes in the name of a state as an argument and lists all cities o
 A python file that contains the class definition of a State and an instance Base = declarative_base().
 # 7-model_state_fetch_all.py
 A script that lists all State objects from the database hbtn_0e_6_usa via SQLAlchemy
+# 8-model_state_fetch_first.py
+A script that prints the first State object from the database hbtn_0e_6_usa.
