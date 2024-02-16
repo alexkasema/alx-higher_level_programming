@@ -16,3 +16,5 @@ A script that takes in arguments and displays all values in the states table of 
 * Safe from MySQL injections! (%s) (state_name, ).
 # 4-cities_by_state.py
 A script that lists all cities from the database hbtn_0e_4_usa.
+# 5-filter_cities.py
+A script that takes in the name of a state as an argument and lists all cities of that state, using the database hbtn_0e_4_usa.
