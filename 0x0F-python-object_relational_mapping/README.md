@@ -29,3 +29,5 @@ A script that lists all State objects that contain the letter a from the databas
 # 10-model_state_my_get.py
 A script that prints the State object with the name passed as argument from the database hbtn_0e_6_usa.
 Results must display the states.id.
+# 11-model_state_insert.py
+A script that adds the State object “Louisiana” to the database hbtn_0e_6_usa.
