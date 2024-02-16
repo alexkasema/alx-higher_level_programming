@@ -31,3 +31,6 @@ A script that prints the State object with the name passed as argument from the 
 Results must display the states.id.
 # 11-model_state_insert.py
 A script that adds the State object “Louisiana” to the database hbtn_0e_6_usa.
+# 12-model_state_update_id_2.py
+A script that changes the name of a State object from the database hbtn_0e_6_usa.
+Change the name of the State where id = 2 to New Mexico.
