@@ -14,3 +14,5 @@ A script that takes in an argument and displays all values in the states table o
 # 3-my_safe_filter_states.py
 A script that takes in arguments and displays all values in the states table of hbtn_0e_0_usa where name matches the argument.
 * Safe from MySQL injections! (%s) (state_name, ).
+# 4-cities_by_state.py
+A script that lists all cities from the database hbtn_0e_4_usa.
