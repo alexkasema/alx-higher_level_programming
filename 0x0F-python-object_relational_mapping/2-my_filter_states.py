@@ -10,7 +10,7 @@ if __name__ == '__main__':
     av = sys.argv
 
     if len(av) != 5:
-        print("Usage: {} username password database_name state_name".format(av[0]))
+        print("Usage: {} username password database_name state".format(av[0]))
         exit(1)
 
     username = av[1]
