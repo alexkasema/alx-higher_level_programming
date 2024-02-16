@@ -36,3 +36,8 @@ A script that changes the name of a State object from the database hbtn_0e_6_usa
 Change the name of the State where id = 2 to New Mexico.
 # 13-model_state_delete_a.py
 A script that deletes all State objects with a name containing the letter a from the database hbtn_0e_6_usa.
+# model_city.py
+Create a class definition of a City.
+# 14-model_city_fetch_by_state.py
+A script that prints all City objects from the database hbtn_0e_14_usa.
+Results must be display as (<state name>: (<city id>) <city name>)
