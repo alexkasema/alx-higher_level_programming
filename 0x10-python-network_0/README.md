@@ -16,3 +16,5 @@ A Bash script that takes in a URL as an argument, sends a GET request to the URL
 * A header variable X-School-User-Id must be sent with the value 98.
 ## 5-post_params.sh
 A Bash script that takes in a URL, sends a POST request to the passed URL, and displays the body of the response.
+## 100-status_code.sh
+A Bash script that sends a request to a URL passed as an argument, and displays only the status code of the response.
