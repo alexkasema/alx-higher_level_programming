@@ -18,3 +18,6 @@ A Bash script that takes in a URL as an argument, sends a GET request to the URL
 A Bash script that takes in a URL, sends a POST request to the passed URL, and displays the body of the response.
 ## 100-status_code.sh
 A Bash script that sends a request to a URL passed as an argument, and displays only the status code of the response.
+## 101-post_json.sh
+A Bash script that sends a JSON POST request to a URL passed as the first argument, and displays the body of the response.
+* Your script must send a POST request with the contents of a file, passed with the filename as the second argument of the script, in the body of the request.
