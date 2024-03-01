@@ -16,3 +16,6 @@ Python script that fetches https://alx-intranet.hbtn.io/status
 ## 5-hbtn_header.py
 Python script that takes in a URL, sends a request to the URL and displays the value of the variable X-Request-Id in the response header
 * You must use the packages requests and sys.
+## 6-post_email.py
+Python script that takes in a URL and an email address, sends a POST request to the passed URL with the email as a parameter, and finally displays the body of the response.
+* The email must be sent in the variable email.
