@@ -7,3 +7,6 @@ A Python script that takes in a URL, sends a request to the URL and displays the
 * You must use the packages urllib and sys.
 ## 2-post_email.py
 Python script that takes in a URL and an email, sends a POST request to the passed URL with the email as a parameter, and displays the body of the response (decoded in utf-8).
+## 3-error_code.py
+Python script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8).
+* You have to manage urllib.error.HTTPError exceptions and print: Error code: followed by the HTTP status code.
