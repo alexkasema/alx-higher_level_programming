@@ -27,3 +27,5 @@ A Python script that takes in a letter and sends a POST request to http://0.0.0.
 * The letter must be sent in the variable q.
 * If no argument is given, set q="".
 * If the response body is properly JSON formatted and not empty, display the id and name like this: [<id>] <name>.
+## 10-my_github.py
+Python script that takes your GitHub credentials (username and password) and uses the GitHub API to display your id.
