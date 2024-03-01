@@ -13,3 +13,6 @@ Python script that takes in a URL, sends a request to the URL and displays the b
 ## 4-hbtn_status.py
 Python script that fetches https://alx-intranet.hbtn.io/status
 * You must use the package requests.
+## 5-hbtn_header.py
+Python script that takes in a URL, sends a request to the URL and displays the value of the variable X-Request-Id in the response header
+* You must use the packages requests and sys.
