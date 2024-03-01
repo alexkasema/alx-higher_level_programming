@@ -22,3 +22,8 @@ Python script that takes in a URL and an email address, sends a POST request to 
 ## 7-error_code.py
 A Python script that takes in a URL, sends a request to the URL and displays the body of the response.
 * If the HTTP status code is greater than or equal to 400, print: Error code: followed by the value of the HTTP status code.
+## 8-json_api.py
+A Python script that takes in a letter and sends a POST request to http://0.0.0.0:5000/search_user with the letter as a parameter.
+* The letter must be sent in the variable q.
+* If no argument is given, set q="".
+* If the response body is properly JSON formatted and not empty, display the id and name like this: [<id>] <name>.
