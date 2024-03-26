@@ -1,0 +1,7 @@
+# JavaScript - Web scraping
+JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa). You'll come across it quite often, so in this article, we give you all you need to work with JSON using JavaScript, including parsing JSON so you can access data within it, and creating JSON.
+## 0-readme.js 
+A script that reads and prints the content of a file.
+* The first argument is the file path
+* The content of the file must be read in utf-8
+* If an error occurred during the reading, print the error object
