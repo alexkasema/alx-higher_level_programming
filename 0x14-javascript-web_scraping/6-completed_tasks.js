@@ -3,7 +3,7 @@
 const request = require('request');
 const url = process.argv[2];
 
-const my_obj = {};
+const myObj = {};
 let obj;
 
 request(url, (error, response, body) => {
@@ -13,13 +13,13 @@ request(url, (error, response, body) => {
     obj = JSON.parse(body);
     obj.forEach(result => {
       if (result.completed) {
-        userid = result.userId;
-        if (!(userid in my_obj)) {
-          my_obj[userid] = 0;
+        const userid = result.userId;
+        if (!(userid in myObj)) {
+          myObj[userid] = 0;
         }
-        my_obj[userid] += 1;
+        myObj[userid] += 1;
       }
     });
-    console.log(my_obj);
+    console.log(myObj);
   }
 });
