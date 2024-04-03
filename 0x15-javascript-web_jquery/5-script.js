@@ -5,5 +5,8 @@ const myList = $('ul.my_list');
 const listElement = $('<li></li>').text('Item');
 
 $(function () {
-  addItem.on('click', () => myList.append(listElement));
+  addItem.on('click', () => {
+    const listElement = $('<li></li>').text('Item');
+    myList.append(listElement));
+  }
 });
