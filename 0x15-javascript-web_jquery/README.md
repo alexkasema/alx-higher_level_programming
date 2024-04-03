@@ -17,3 +17,6 @@ A JavaScript script that updates the text of the <header> element to New Header!
 ## 7-script.js
 A JavaScript script that fetches the character name from this URL: https://swapi-api.alx-tools.com/api/people/5/?format=json
 * The name must be displayed in the HTML tag DIV#character.
+## 8-script.js
+A JavaScript script that fetches and lists the title for all movies by using this URL: https://swapi-api.alx-tools.com/api/films/?format=json.
+* All movie titles must be list in the HTML tag UL#list_movies.
