@@ -22,3 +22,9 @@ A JavaScript script that fetches and lists the title for all movies by using thi
 * All movie titles must be list in the HTML tag UL#list_movies.
 ## 9-script.js
 A JavaScript script that fetches from https://hellosalut.stefanbohacek.dev/?lang=fr and displays the value of hello from that fetch in the HTML tag DIV#hello.
+## 100-script.js
+A JavaScript script that updates the text color of the <header> element to red (#FF0000):
+
+* You must use document.querySelector to select the HTML tag
+* You can’t use the jQuery API
+* Note: Your script must be imported from the <head> tag, not at the end of the HTML
