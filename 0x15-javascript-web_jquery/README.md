@@ -4,3 +4,5 @@ jQuery is a fast, small, and feature-rich JavaScript library. It makes things li
 A JavaScript script that updates the text color of the <header> element to red (#FF0000)
 ## 1-script.js
 A JavaScript script that updates the text color of the <header> element to red (#FF0000) using JQuery API
+## 2-script.js
+A JavaScript script that updates the text color of the <header> element to red (#FF0000) when the user clicks on the tag DIV#red_header.
